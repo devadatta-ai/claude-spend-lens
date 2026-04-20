@@ -1,0 +1,34 @@
+{
+  "name": "claude-spend-lens",
+  "version": "1.0.0",
+  "description": "Per-prompt and session spend visibility for Claude Code. See exactly what each prompt costs the moment it finishes — spot expensive prompts and spend leaks before you hit the 'usage limit' wall. Costs shown in USD or INR (live rate, auto-refreshes every 30 days).",
+  "bin": {
+    "claude-spend-lens": "./setup.js"
+  },
+  "files": [
+    "setup.js",
+    "statusline.js",
+    "statusline-stop.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "spend",
+    "cost",
+    "visibility",
+    "prompt",
+    "statusline",
+    "status-bar",
+    "inr",
+    "budget",
+    "usage-limit",
+    "token-cost"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
